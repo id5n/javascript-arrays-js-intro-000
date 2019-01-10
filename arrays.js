@@ -8,9 +8,9 @@ var addElementToBeginningOfArray = function(array, element) {
 
 // Review later
 var destructivelyAddElementToBeginningOfArray = function(array, element) {
-  beginningArray = [1];
-  beginningArray.unshift(element);
-  return beginningArray;
+  arrBegin = [1];
+  arrBegin.unshift(element);
+  return arrBegin;
 }
 
 var addElementToEndOfArray = function(array, element) {
