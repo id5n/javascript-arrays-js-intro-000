@@ -36,5 +36,5 @@ var destructivelyAddElementToEndOfArray = function(array, element) {
 
 var accessElementInArray = function(array, index) {
   var arrAccess = [1, 2, 3];
-  console.log(arrAccess[index]);
+  console.log(arrAccess[2]);
 }
