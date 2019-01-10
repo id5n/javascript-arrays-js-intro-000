@@ -28,7 +28,7 @@ var destructivelyAddElementToEndOfArray = function(array, element) {
 
   endArray = [1];
 
-  endArray.unshift(element);
+  endArray.push(element);
 
 
   return endArray;
