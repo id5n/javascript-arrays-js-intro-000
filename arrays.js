@@ -10,6 +10,6 @@ var destructivelyAddElementToBeginningOfArray = function(array, element) {
 
   beginningArray = [1];
   beginningArray.unshift(element);
-  
+
   return beginningArray;
 }
