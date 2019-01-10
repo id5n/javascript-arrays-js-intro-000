@@ -22,3 +22,14 @@ var addElementToEndOfArray = function(array, element) {
   var newArray = [...firstArray, element];
   return newArray;
 }
+
+
+var destructivelyAddElementToEndOfArray = function(array, element) {
+
+  endArray = [1];
+
+  endArray.unshift(element);
+
+
+  return endArray;
+}
