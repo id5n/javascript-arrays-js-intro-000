@@ -38,3 +38,13 @@ var accessElementInArray = function(array, index) {
   var arrAccess = [1, 2, 3];
   return arrAccess[index];
 }
+
+var destructivelyRemoveElementFromBeginningOfArray = function(array) {
+
+  beginningArray = [1];
+
+  beginningArray.shift();
+
+
+  return beginningArray;
+}
